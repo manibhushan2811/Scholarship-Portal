@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@200&family=Fredoka&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: rgb(233, 243, 247);
+}
+/* main body */
+
+.main-details {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+p, dd{
+  font-family: 'Fredoka', sans-serif;
+}
+
+/* National Details Section */
+.card-body {
+  background-color: #c3dbcc;
+}
+.card-header {
+  /* background-color: ; */
+  background-color: #e7e5d9;
+  font-size: larger;
+}
+
+/* Footer */
+
+.footer {
+  background-color: antiquewhite;
+  margin-bottom: 0;
+}

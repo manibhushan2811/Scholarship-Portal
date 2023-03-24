@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@200&family=Fredoka&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* navbar-2 */
+
+nav .navbar-nav li a {
+  color: rgb(70, 78, 85) !important;
+}
+
+/* About US PAGE */
+.aboutuspage {
+  margin: 10px 50px 10px 50px;
+}
+/* Carsoul */
+.carsoulImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header {
+  background-color: rgb(233, 243, 247);
+}
+
+/* Counter */
+
+.counter-outer-div h3{
+  font-family: 'Poppins', sans-serif;
+}
+.outerdiv {
+ 
+  height: 40vh;
+  /* width: 100vw; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  column-gap: 10px;
+  /* flex-direction: row; */
+}
+.innerdiv {
+border-radius: 240PX;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 200px;
+  background-color: #94b49fbd;
+}
+
+.counter-inner {
+  font-size: 40px;
+  font-weight: 800;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 600px) {
+  .outerdiv {
+    /* padding: 20px 0; */
+    flex-direction: column;
+    row-gap: 20px;
+    height: 70vh;
+    margin: 25px 0;
+  }
+  .innerdiv {
+    width: 100%;
+    height: 33%;
+    
+  }
+  .counter-outer-div h3{
+    padding-top: 50px;
+  }
+}
+
+/* Testimonial */
+.testimonial-div {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(110deg, #94B49F 0%, #E5E3C9 100%);
+}
+
+.testimonial {
+  position: relative;
+  width: 800px;
+  min-width: 350px;
+  min-height: 250px;
+  padding-bottom: 40px;
+  overflow: hidden;
+}
+
+.testimonial-wrapper {
+  width: 300%;
+  min-height: 100%;
+  display: flex;
+  justify-content: space-between;
+  transition: 1s;
+}
+.testimonial-card {
+  width: 800px;
+  min-height: 100%;
+  background-color: #FFFBE9;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 0 10px;
+}
+.testimonial-card-thumb {
+  width: 70%;
+  height: 250px;
+  overflow: hidden;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: relative;
+}
+
+.client-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.client-name {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  padding: 5px 20px;
+  background: #e7e5d9;
+  font-size: 14px;
+}
+
+.testimonial-card-body {
+  width: 120%;
+  min-height: 100%;
+  height: auto;
+  margin-left: 20px;
+  position: relative;
+  /* padding-bottom: 50px; */
+}
+.indicator {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+.indicator button {
+  background: none;
+  border: none;
+  outline: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  cursor: pointer;
+  margin-left: 5px;
+  transition: 0.5;
+}
+
+button.active {
+  width: 40px;
+  border-radius: 50px;
+  background: #fff;
+}
+
+@media (max-width: 800px) {
+  .testimonial-div {
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+  }
+  .testimonial-card {
+    flex-direction: column;
+  }
+  .testimonial-card-thumb {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .testimonial-card-body {
+    width: 100%;
+    min-height: auto;
+    margin-left: 0;
+  }
+}
+
+/* Top Provider */
+.our_sponsor {
+  padding: 150px 0 60px;
+ background-color: #FFFBE9;
+}
+.our_sponsor .sponsored_company_logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+.our_sponsor .sponsored_company_logos li {
+  margin-bottom: 70px;
+}
+.our_sponsor .sponsored_company_logos li img {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  height: 50px;
+  width: auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.our_sponsor .sponsored_company_logos li img:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.our_sponsor .sponsored_company_logos_2 {
+  -webkit-box-pack: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+}
+.our_sponsor .sponsored_company_logos_2 li {
+  padding: 0 40px;
+}
+
+/* Footer */
+.footer {
+  background-color: antiquewhite;
+  margin-bottom: 0;
+}

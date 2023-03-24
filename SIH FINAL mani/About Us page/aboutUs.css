@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@200&family=Fredoka&family=Poppins:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Navbar 2 */
+
+nav .navbar-nav li a{
+    color: rgb(70, 78, 85) !important;
+    }
+
+
+/* About US PAGE */
+
+.aboutuspage{
+    padding: 70px 60px;
+}
+.aboutuspage h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+.aboutuspage dd{
+    font-family: 'Fredoka', sans-serif;
+}
+p{
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* main body */
+
+  
+
+
+.footer{
+    background-color: antiquewhite;
+    margin-bottom: 0;
+  }
